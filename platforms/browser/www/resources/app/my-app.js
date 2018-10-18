@@ -3383,7 +3383,7 @@ function showNoCreditMessage(){
     var modalTex = '<div class="color-red custom-modal-title">'+ LANGUAGE.PROMPT_MSG032 +'</div>' +
                     '<div class="custom-modal-text">'+ LANGUAGE.PROMPT_MSG029 +'</div>';                            
     App.modal({
-           title: '<div class="custom-modal-logo-wrapper"><img class="custom-modal-logo" src="resources/images/logo.png" alt=""/></div>',
+           title: '<div class="custom-modal-logo-wrapper"><img class="custom-modal-logo" src="resources/images/logo-dark.png" alt=""/></div>',
             text: modalTex,                                
          buttons: [
             {
@@ -3410,7 +3410,7 @@ function showCustomMessage(params){
     }    
                                              
     App.modal({
-           title: '<div class="custom-modal-logo-wrapper"><img class="custom-modal-logo" src="resources/images/logo.png" alt=""/></div>',
+           title: '<div class="custom-modal-logo-wrapper"><img class="custom-modal-logo" src="resources/images/logo-dark.png" alt=""/></div>',
             text: modalTex,                                
          buttons: [
             {
